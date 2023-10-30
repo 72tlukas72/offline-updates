@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:https://github.com/RocketChat/Rocket.Chat.Electron/releases</id>
+  <link type="text/html" rel="alternate" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases.atom"/>
+  <title>Release notes from Rocket.Chat.Electron</title>
+  <updated>2023-05-17T18:39:09Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Repository/38767563/3.9.4</id>
+    <updated>2023-05-17T19:21:15Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/tag/3.9.4"/>
+    <title>3.9.4</title>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: Update yarn.lock by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/jeanfbrito/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/jeanfbrito&quot;&gt;@jeanfbrito&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1668801479&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2645&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2645/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2645&quot;&gt;#2645&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;chore: Validate deeplinks protocol set in electron-builder.json by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/jeanfbrito/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/jeanfbrito&quot;&gt;@jeanfbrito&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1685737185&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2654&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2654/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2654&quot;&gt;#2654&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;fix: user presence import by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/juliajforesti/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/juliajforesti&quot;&gt;@juliajforesti&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1687017414&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2656&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2656/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2656&quot;&gt;#2656&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;fix: Sidebar color by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/juliajforesti/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/juliajforesti&quot;&gt;@juliajforesti&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1686999893&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2655&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2655/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2655&quot;&gt;#2655&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/juliajforesti/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/juliajforesti&quot;&gt;@juliajforesti&lt;/a&gt; made their first contribution in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1687017414&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2656&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2656/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2656&quot;&gt;#2656&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/compare/3.9.3...3.9.4&quot;&gt;&lt;tt&gt;3.9.3...3.9.4&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <author>
+      <name>jeanfbrito</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1177482?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/38767563/3.9.3</id>
+    <updated>2023-04-13T21:43:07Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/tag/3.9.3"/>
+    <title>3.9.3</title>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: Notifications, badge and others not working on old server versions by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/jeanfbrito/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/jeanfbrito&quot;&gt;@jeanfbrito&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1666929233&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2643&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2643/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2643&quot;&gt;#2643&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/compare/3.9.2...3.9.3&quot;&gt;&lt;tt&gt;3.9.2...3.9.3&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <author>
+      <name>jeanfbrito</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1177482?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/38767563/3.9.3-alpha</id>
+    <updated>2023-04-13T13:55:14Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/tag/3.9.3-alpha"/>
+    <title>3.9.3-alpha</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/compare/3.9.2...3.9.3-alpha&quot;&gt;&lt;tt&gt;3.9.2...3.9.3-alpha&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <author>
+      <name>jeanfbrito</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1177482?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/38767563/3.9.2</id>
+    <updated>2023-04-13T20:59:59Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/tag/3.9.2"/>
+    <title>3.9.2</title>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: Avoid isomorphic barrel imports from Rocket.Chat code by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/tassoevan/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/tassoevan&quot;&gt;@tassoevan&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1662732005&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2638&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2638/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2638&quot;&gt;#2638&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/compare/3.9.1...3.9.2&quot;&gt;&lt;tt&gt;3.9.1...3.9.2&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <author>
+      <name>jeanfbrito</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1177482?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/38767563/3.9.1</id>
+    <updated>2023-04-03T13:18:22Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/tag/3.9.1"/>
+    <title>3.9.1</title>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;
+&lt;p&gt;Add Finnish translations&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Language update from LingoHub &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;robot&quot; fallback-src=&quot;https://github.githubassets.com/images/icons/emoji/unicode/1f916.png&quot;&gt;🤖&lt;/g-emoji&gt; on 2023-03-31Z by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;organization&quot; data-hovercard-url=&quot;/orgs/lingohub/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/lingohub&quot;&gt;@lingohub&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1649453626&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2628&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2628/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2628&quot;&gt;#2628&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/compare/3.9.0...3.9.1&quot;&gt;&lt;tt&gt;3.9.0...3.9.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <author>
+      <name>jeanfbrito</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1177482?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/38767563/3.9.0</id>
+    <updated>2023-03-25T20:17:50Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/tag/3.9.0"/>
+    <title>3.9.0</title>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore: Implement conference deeplink by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/dougfabris/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/dougfabris&quot;&gt;@dougfabris&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1629621821&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2617&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2617/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2617&quot;&gt;#2617&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pexip integration merge by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/jeanfbrito/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/jeanfbrito&quot;&gt;@jeanfbrito&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1635888487&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2624&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2624/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2624&quot;&gt;#2624&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New video conference window&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;NOTICE:&lt;/h2&gt;
+&lt;h3&gt;Sunsetting Windows 7/8/8.1 support&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Electron will be ending support for Windows 7/8/8.1 after version 22.x.y &lt;a href=&quot;https://support.google.com/chrome/thread/185534985/sunsetting-support-for-windows-7-8-8-1-in-early-2023?hl=en&quot; rel=&quot;nofollow&quot;&gt;following Chromium&#39;s plan to end support&lt;/a&gt;. Older versions of Electron will continue to work, but no further updates will be made for these operating systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Following the ElectronJS team, this version 3.9.x using Electron version 22, is the last minor release supporting Windows 7/8/8.1.&lt;/p&gt;
+&lt;p&gt;The next versions may work normally on older Windows, but as we don&#39;t have support from the framework, we can&#39;t assure that it will work in the future.&lt;/p&gt;
+&lt;p&gt;Future patches of Version 3.9 will keep supporting.  &lt;strong&gt;But starting with 4.0 we will update our Electron version and no longer officially be able to support Windows 7/8/8.1&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thanks for understanding!&lt;/p&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/dougfabris/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/dougfabris&quot;&gt;@dougfabris&lt;/a&gt; made their first contribution in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1629621821&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2617&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2617/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2617&quot;&gt;#2617&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/compare/3.8.17...3.9.0&quot;&gt;&lt;tt&gt;3.8.17...3.9.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <author>
+      <name>jeanfbrito</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1177482?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/38767563/3.8.17</id>
+    <updated>2023-03-17T02:58:08Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/tag/3.8.17"/>
+    <title>3.8.17</title>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chore: use electron-builder information for AppId (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1582458343&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2606&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2606/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2606&quot;&gt;#2606&lt;/a&gt;) by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/jeanfbrito/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/jeanfbrito&quot;&gt;@jeanfbrito&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1626185482&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2613&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2613/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2613&quot;&gt;#2613&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chore: Add clear screen capture permissions button on configurations panel by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/jeanfbrito/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/jeanfbrito&quot;&gt;@jeanfbrito&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1626195235&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2614&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2614/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2614&quot;&gt;#2614&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix: Jitsi screen share not working&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/compare/3.8.19...3.8.17&quot;&gt;&lt;tt&gt;3.8.19...3.8.17&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <author>
+      <name>jeanfbrito</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1177482?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/38767563/3.8.19</id>
+    <updated>2023-01-14T01:42:06Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/tag/3.8.19"/>
+    <title>3.8.19</title>
+    <content type="html">&lt;p&gt;Version 3.8.19&lt;/p&gt;</content>
+    <author>
+      <name>jeanfbrito</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1177482?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/38767563/3.8.16</id>
+    <updated>2023-01-11T02:41:30Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/tag/3.8.16"/>
+    <title>3.8.16</title>
+    <content type="html">&lt;p&gt;Rollback to Electron v21.3.3 because v22.0.0 created compatibility issues.&lt;/p&gt;
+&lt;p&gt;As stated on &lt;a href=&quot;https://releases.electronjs.org/releases/stable?version=22&quot; rel=&quot;nofollow&quot;&gt;Electron&#39;s Releases page&lt;/a&gt;, Electron package is sunsetting Windows 7/8/8.1&lt;br&gt;
+&quot;Electron will be ending support for Windows 7/8/8.1 after version 22.x.y &lt;a href=&quot;https://support.google.com/chrome/thread/185534985/sunsetting-support-for-windows-7-8-8-1-in-early-2023?hl=en&quot; rel=&quot;nofollow&quot;&gt;following Chromium&#39;s plan to end support&lt;/a&gt;. Older versions of Electron will continue to work, but no further updates will be made for these operating systems.&quot;&lt;/p&gt;
+&lt;p&gt;We will maintain the Electron version in v21 until the v22 gets stable enough.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/compare/3.8.15...3.8.16&quot;&gt;&lt;tt&gt;3.8.15...3.8.16&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <author>
+      <name>jeanfbrito</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1177482?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/38767563/3.8.15</id>
+    <updated>2022-12-31T17:28:48Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/tag/3.8.15"/>
+    <title>3.8.15</title>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix: Fix dom-ready not happening in order by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/jeanfbrito/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/jeanfbrito&quot;&gt;@jeanfbrito&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1512861583&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2570&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2570/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2570&quot;&gt;#2570&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;chore: Update hu.i18n.json by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/urbalazs/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/urbalazs&quot;&gt;@urbalazs&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1503750633&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2567&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2567/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2567&quot;&gt;#2567&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Language update from LingoHub &lt;g-emoji class=&quot;g-emoji&quot; alias=&quot;robot&quot; fallback-src=&quot;https://github.githubassets.com/images/icons/emoji/unicode/1f916.png&quot;&gt;🤖&lt;/g-emoji&gt; on 2022-12-26Z by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;organization&quot; data-hovercard-url=&quot;/orgs/lingohub/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/lingohub&quot;&gt;@lingohub&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1510891214&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2569&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2569/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2569&quot;&gt;#2569&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;chore: Update/electron 22.0.0 by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/jeanfbrito/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/jeanfbrito&quot;&gt;@jeanfbrito&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1513992503&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2571&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2571/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2571&quot;&gt;#2571&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;FIX &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1417897893&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2530&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/issues/2530/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2530&quot;&gt;#2530&lt;/a&gt; :SettingsView Added Scrolling By adding Overflow-Y:auto by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/thepranays/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/thepranays&quot;&gt;@thepranays&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1504131562&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2568&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2568/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2568&quot;&gt;#2568&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;New Contributors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/thepranays/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/thepranays&quot;&gt;@thepranays&lt;/a&gt; made their first contribution in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1504131562&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/issues/2568&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/RocketChat/Rocket.Chat.Electron/pull/2568/hovercard&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/pull/2568&quot;&gt;#2568&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/RocketChat/Rocket.Chat.Electron/compare/3.8.14...3.8.15&quot;&gt;&lt;tt&gt;3.8.14...3.8.15&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <author>
+      <name>jeanfbrito</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1177482?s=60&amp;v=4"/>
+  </entry>
+</feed>

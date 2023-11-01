@@ -18,7 +18,164 @@
   <body>
     <main class="web-site-width mw-750">
       <h2>Release Notes</h2>
-      <div class="change-history-list"><h4 id="v2023.2.30.0">Version 2023.2.30.0 (September 26, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.2 is required with this version (only if you're already using DVLS)</p>
+      <div class="change-history-list"><h4 id="v2023.3.20.0">Version 2023.3.20.0 (November 1, 2023)</h4><p class="db-flag">Database upgrade required</p><ul class="message-flag"><li><p>DVLS 2023.3 is required with this version (only if you're already using DVLS)</p>
+</li></ul><ul class="new-flag"><li class="undefined"><p>Added BeyondTrust Password Safe as credential</p>
+</li><li class="undefined"><p>Added credential entry for X509 certificates</p>
+</li><li class="undefined"><p>Added Lansweeper synchronizer and importer</p>
+</li><li class="undefined"><p>Added Lansweeper web integration in entries' IT Asset Management tab</p>
+</li><li class="undefined"><p>Added new integration for iDRAC</p>
+</li></ul><ul class="breaking-changes-flag"><li class="breaking-changes-tag"><p>Removed Office 15 contact import</p>
+</li><li class="breaking-changes-tag"><p>Removed support for Legacy Security</p>
+</li><li class="breaking-changes-tag"><p>Removed support for MySQL and MariaDB data sources</p>
+</li><li class="breaking-changes-tag"><p>Version mismatch with DVLS leads to a &quot;Read-Only&quot; mode in the application to avoid potential issues</p>
+</li></ul><ul class="updated-flag"><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-5765">CVE-2023-5765</a> Fixed Password Analyzer being accessible in any data source when already opened in a prior data source in which you were an adminitrator</p>
+</li><li class="undefined"><p>Added &quot;URL encode credentials&quot; options when using basic authentication</p>
+</li><li class="undefined"><p>Added &quot;Visible if not empty&quot; option to dashboard widgets</p>
+</li><li class="undefined"><p>Added a compact mode to the action sidebar</p>
+</li><li class="undefined"><p>Added a recommended version setting to the version management</p>
+</li><li class="undefined"><p>Added a setting to toggle the Search Everywhere in Add Entry</p>
+</li><li class="undefined"><p>Added 'All approvers' for DVLS PAM</p>
+</li><li class="undefined"><p>Added All Approvers options when requesting a pam checkout</p>
+</li><li class="undefined"><p>Added auto-focus on filter bar when opening the PAM Vault Selector</p>
+</li><li class="undefined"><p>Added button to show/hide compatibility for settings in website entries</p>
+</li><li class="undefined"><p>Added CP437 encoding for terminal</p>
+</li><li class="undefined"><p>Added CTRL+Reconnect and CTRL+Reconnect All command to full reconnect and fully resolve the credentials</p>
+</li><li class="undefined"><p>Added custom message setting for custom credentials wait time</p>
+</li><li class="undefined"><p>Added custom parameters to Typing Macros</p>
+</li><li class="undefined"><p>Added double click support to open Documentation, attachment and asset from the dashboard</p>
+</li><li class="undefined"><p>Added error message when Hub Business has no PAM vault</p>
+</li><li class="undefined"><p>Added favorites for Hub Business</p>
+</li><li class="undefined"><p>Added feature to make the RDM SSH key agent compatible with the Windows SSH key agent</p>
+</li><li class="undefined"><p>Added GPO for TreeView autofocus</p>
+</li><li class="undefined"><p>Added GPO to lock navigation pane</p>
+</li><li class="undefined"><p>Added icon for approver dropdown in PAM checkout dialog</p>
+</li><li class="undefined"><p>Added images to VPN in existing display</p>
+</li><li class="undefined"><p>Added migrator for custom image to system vault</p>
+</li><li class="undefined"><p>Added mouse jiggler feature in RDP</p>
+</li><li class="undefined"><p>Added new document type for XML files</p>
+</li><li class="undefined"><p>Added new fields to assets</p>
+</li><li class="undefined"><p>Added Open using parent folder credentials button</p>
+</li><li class="undefined"><p>Added option for notification prompt on startup</p>
+</li><li class="undefined"><p>Added option In memory credentials to all relevant account settings</p>
+</li><li class="undefined"><p>Added option to preserve timestamps on download/upload for SFTP entry</p>
+</li><li class="undefined"><p>Added option to select in navigation pane with double click instead of execute</p>
+</li><li class="undefined"><p>Added quick actions to the widget customization form</p>
+</li><li class="undefined"><p>Added recording tab to dashboards</p>
+</li><li class="undefined"><p>Added Report ribbon tab</p>
+</li><li class="undefined"><p>Added resizing and saving of size of description field in properties</p>
+</li><li class="undefined"><p>Added reviewer selection for PAM checkout</p>
+</li><li class="undefined"><p>Added role support for access requests in Hub Business</p>
+</li><li class="undefined"><p>Added save/load to filter result columns</p>
+</li><li class="undefined"><p>Added Service Account support for 1Password credential entry</p>
+</li><li class="undefined"><p>Added setting to force application password for users</p>
+</li><li class="undefined"><p>Added shared user settings for DVLS, Hub and SQL Server datasources</p>
+</li><li class="undefined"><p>Added Site contact type, Team folder type and link team in asset</p>
+</li><li class="undefined"><p>Added support for DRAC VNC and VNC over websockets</p>
+</li><li class="undefined"><p>Added support for full screen mode for FreeVNC (VNC and ARD) connections</p>
+</li><li class="undefined"><p>Added support for Kerberos with RDP over Azure Bastion</p>
+</li><li class="undefined"><p>Added support for linked host in temporary access requests</p>
+</li><li class="undefined"><p>Added support for load system information feature on folders with host</p>
+</li><li class="undefined"><p>Added support for Microsoft RDP X.509 smartcard credential</p>
+</li><li class="undefined"><p>Added support for OTP on PAM entries in DVLS</p>
+</li><li class="undefined"><p>Added support for password in RustDesk addon</p>
+</li><li class="undefined"><p>Added support for revoking temporary access by an approver</p>
+</li><li class="undefined"><p>Added support for vertical document tab layout</p>
+</li><li class="undefined"><p>Added temporary access to view password on credential entries for Hub</p>
+</li><li class="undefined"><p>Added the DVLS security dashboard in RDM</p>
+</li><li class="undefined"><p>Added the possiblity to save and restore specific layout (workspace)</p>
+</li><li class="undefined"><p>Added username and password search fields to 1Password credential</p>
+</li><li class="undefined"><p>Added warning to the website &quot;override cache path&quot; option</p>
+</li><li class="undefined"><p>Added way to hide SQLite shared network warning for licensed users</p>
+</li><li class="undefined"><p>Added web cache clearing on application close</p>
+</li><li class="undefined"><p>Allow the title bar forecolor to be customized</p>
+</li><li class="undefined"><p>Changed Application Password default iteration count</p>
+</li><li class="undefined"><p>Disabled vault changing when a synchronizer is running</p>
+</li><li class="undefined"><p>Improved abort action when using computer list</p>
+</li><li class="undefined"><p>Improved Azure Bastion authentication to use system browser</p>
+</li><li class="undefined"><p>Improved behavior for &quot;:&quot; character in OTP settings (warn instead of disallow saving)</p>
+</li><li class="undefined"><p>Improved bold settings for terminal</p>
+</li><li class="undefined"><p>Improved creation flow in Add Connection for host, credential and folder</p>
+</li><li class="undefined"><p>Improved default displaying of expiring entries to be related to time</p>
+</li><li class="undefined"><p>Improved drag and drop of documents, certificate (PFX) and RDP files</p>
+</li><li class="undefined"><p>Improved layout saving for file explorer entries</p>
+</li><li class="undefined"><p>Improved license validation process</p>
+</li><li class="undefined"><p>Improved navigation pane filter to check host from password list</p>
+</li><li class="undefined"><p>Improved options UI when GPO is enabled</p>
+</li><li class="undefined"><p>Improved RDP to not show default port when connecting</p>
+</li><li class="undefined"><p>Improved RDP to not show default port when connecting through Gateway</p>
+</li><li class="undefined"><p>Improved ribbon to allow pinning and unpinning tools</p>
+</li><li class="undefined"><p>Improved template selection in synchronizers</p>
+</li><li class="undefined"><p>Improved the advanced search to be more customizable</p>
+</li><li class="undefined"><p>Improved the custom report</p>
+</li><li class="undefined"><p>Improved the increment number option</p>
+</li><li class="undefined"><p>Improved the Send Key to Application macro</p>
+</li><li class="undefined"><p>Updated the online and offline license validation</p>
+</li><li class="undefined"><p>Updated the way PAM account permission are displayed to reflect the permissions used in specific datasource type</p>
+</li></ul><ul class="fixed-flag"><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-5766">CVE-2023-5766</a> Fixed remote code execution vulnerability</p>
+</li><li class="undefined"><p>Fixed &quot;view folder details&quot; not resolving sensitive data correctly</p>
+</li><li class="undefined"><p>Fixed a Keeper login issue when the session token is expired</p>
+</li><li class="undefined"><p>Fixed a possible FIPS mode issue</p>
+</li><li class="undefined"><p>Fixed AD dashboard issue with LDAPS url and TLS channel binding</p>
+</li><li class="undefined"><p>Fixed alt-tab issue with the terminal</p>
+</li><li class="undefined"><p>Fixed an error when duplicating a DVLS datasource</p>
+</li><li class="undefined"><p>Fixed an issue causing the Asset tab to be hidden for non-admins</p>
+</li><li class="undefined"><p>Fixed an issue with Azure Resource and subscription inheritance</p>
+</li><li class="undefined"><p>Fixed an issue with import from AD using Computer Wizard with shared templates</p>
+</li><li class="undefined"><p>Fixed and added Collapse/Expand all for favorite view</p>
+</li><li class="undefined"><p>Fixed batch edit of permissions in Hub</p>
+</li><li class="undefined"><p>Fixed convert with template setting 'Keep entry name' from showing when Template Group is selected</p>
+</li><li class="undefined"><p>Fixed counter card issue with text in german</p>
+</li><li class="undefined"><p>Fixed credential linking between shared and user vault</p>
+</li><li class="undefined"><p>Fixed deadlock with offline mode</p>
+</li><li class="undefined"><p>Fixed export in read-only mode and restricted access to edit actions</p>
+</li><li class="undefined"><p>Fixed folder properties on empty folder</p>
+</li><li class="undefined"><p>Fixed folders added in the wrong vault when custom folder template exist</p>
+</li><li class="undefined"><p>Fixed issue where Passphrase mode couldn't be used in password template</p>
+</li><li class="undefined"><p>Fixed issue where RDM was freezing when using double click reconnect on VPNs</p>
+</li><li class="undefined"><p>Fixed issue where you could add entries in the user vault while in read only mode from major version mismatch</p>
+</li><li class="undefined"><p>Fixed issue with bad folders in a Template Group creating faulty entries when used</p>
+</li><li class="undefined"><p>Fixed issue with checkouts for PAM account when ticketing type is set to Default (none)</p>
+</li><li class="undefined"><p>Fixed issue with default sort in Password List</p>
+</li><li class="undefined"><p>Fixed issue with Hub loading infinitely due to unhealthy entries</p>
+</li><li class="undefined"><p>Fixed issue with mouse wheel zoom in terminal</p>
+</li><li class="undefined"><p>Fixed issue with remote TRP recordings not being downloadable</p>
+</li><li class="undefined"><p>Fixed issue with template selection in synchronizers</p>
+</li><li class="undefined"><p>Fixed issues with log date filters</p>
+</li><li class="undefined"><p>Fixed issues with temporary access in Hub datasource</p>
+</li><li class="undefined"><p>Fixed missing browse button for the activity logs backup</p>
+</li><li class="undefined"><p>Fixed move entries out of system vault using edit special actions</p>
+</li><li class="undefined"><p>Fixed multiple issues with the Import Wizard</p>
+</li><li class="undefined"><p>Fixed overview for ZOC host</p>
+</li><li class="undefined"><p>Fixed PAM Dashboard not using autofocus dashboard option</p>
+</li><li class="undefined"><p>Fixed PAM usage policies tools restriction not working properly</p>
+</li><li class="undefined"><p>Fixed performance issue in duplicate report</p>
+</li><li class="undefined"><p>Fixed permissions not displayed correctly for Read-only &amp; Restricted users</p>
+</li><li class="undefined"><p>Fixed possible crash when loading the asset overview</p>
+</li><li class="undefined"><p>Fixed possible crash with WaitProgress</p>
+</li><li class="undefined"><p>Fixed possible error when printing a webview that hasn't been initialized</p>
+</li><li class="undefined"><p>Fixed possible freeze when filtering</p>
+</li><li class="undefined"><p>Fixed possible issue in UI of Password Analyzer and Entry Security Analyzer</p>
+</li><li class="undefined"><p>Fixed possible issue with offline mode freezing</p>
+</li><li class="undefined"><p>Fixed Royal TS import failing with certain credential configurations</p>
+</li><li class="undefined"><p>Fixed session recording framerate default value</p>
+</li><li class="undefined"><p>Fixed sorting issues with folder with variables in name</p>
+</li><li class="undefined"><p>Fixed template and shared vault loading empty</p>
+</li><li class="undefined"><p>Fixed temporary access not working when the user doesn't have the view permission on a linked entry</p>
+</li><li class="undefined"><p>Fixed What's New page shown even when internet access isn't allowed</p>
+</li><li class="undefined"><p>Removed online backup in Devolutions Hub Personal - never been supported</p>
+</li></ul><h4 id="v2023.2.33.0">Version 2023.2.33.0 (October 23, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.2 is required with this version (only if you're already using DVLS)</p>
+</li></ul><ul class="updated-flag"><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-4863">CVE-2023-4863</a> Updated EssentialObjects library (Chrome Embedded) to fix security vulnerability</p>
+</li></ul><h4 id="v2023.2.32.0">Version 2023.2.32.0 (September 28, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.2 is required with this version (only if you're already using DVLS)</p>
+</li></ul><ul class="updated-flag"><li class="undefined"><p>Removed Dashboard section from Administration dashboard for all single user data sources</p>
+</li></ul><ul class="fixed-flag"><li class="undefined"><p>Fixed &quot;Override parent ($PARENT_HOST$)&quot; setting in the VPN section of an entry</p>
+</li><li class="undefined"><p>Fixed CyberArk SAML login hanging after redirections</p>
+</li><li class="undefined"><p>Fixed issue resolving variables for private key file mode in certain contexts</p>
+</li><li class="undefined"><p>Fixed issue while connecting from device key to hub personal</p>
+</li><li class="undefined"><p>Fixed issue with Hub Personal being stuck in read-only mode under certain conditions</p>
+</li><li class="undefined"><p>Fixed issue with SSH using SFTP crashing</p>
+</li><li class="undefined"><p>Fixed possible issue in DVLS login</p>
+</li><li class="undefined"><p>Fixed temporary access request not sending to all approvers</p>
+</li></ul><h4 id="v2023.2.30.0">Version 2023.2.30.0 (September 26, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.2 is required with this version (only if you're already using DVLS)</p>
 </li></ul><ul class="updated-flag"><li class="undefined"><p>Added back the Asset Version field</p>
 </li><li class="undefined"><p>Added drag and drop support in the template management window</p>
 </li><li class="undefined"><p>Added read-only mode when RDM and DVLS/Hub versions don't match to prevent data loss</p>
@@ -270,13 +427,13 @@
 </li><li class="undefined"><p>Added support for Vault Access requests</p>
 </li><li class="undefined"><p>Added Unix Terminal entry type</p>
 </li><li class="undefined"><p>Added Vault Owners feature</p>
-</li></ul><ul class="updated-flag"><li class="breaking-changes-tag"><p>Changed the default ribbon state to be minimized by default</p>
+</li></ul><ul class="breaking-changes-flag"><li class="breaking-changes-tag"><p>Changed the default ribbon state to be minimized by default</p>
 </li><li class="breaking-changes-tag"><p>Devolutions Online Drive is now marked as deprecated but is still supported</p>
 </li><li class="breaking-changes-tag"><p>Removed embedded option for MikroTik Winbox since it isn't supported with newer versions</p>
 </li><li class="breaking-changes-tag"><p>Removed the Email mode from Bitwarden as it is not supported anymore</p>
 </li><li class="breaking-changes-tag"><p>This is the last version supporting the legacy security - will soon no longer be applied</p>
 </li><li class="breaking-changes-tag"><p>Windows 7 and Windows 8 is no longer officially supported</p>
-</li><li class="undefined"><p>Add Gateway recording playback support</p>
+</li></ul><ul class="updated-flag"><li class="undefined"><p>Add Gateway recording playback support</p>
 </li><li class="undefined"><p>Added &quot;Copy One Time Password&quot; button for session entries when using &quot;show copy actions in sessions dashboard&quot; setting</p>
 </li><li class="undefined"><p>Added &quot;remember me&quot; for WebAuthn in 1Password</p>
 </li><li class="undefined"><p>Added a button to open the documentation in a new tab page</p>
@@ -471,8 +628,8 @@
 </li><li class="undefined"><p>Added global VPN support</p>
 </li><li class="undefined"><p>Dashboard are now customizable</p>
 </li><li class="undefined"><p>IT Asset management feature (new fields, asset overview report, owner, team, owner history, asset type and asset search)</p>
-</li></ul><ul class="updated-flag"><li class="breaking-changes-tag"><p>Removed organisation support with Sql Server and Devolutions Organization</p>
-</li><li class="undefined"><p>Added &quot;Configure Native Messaging&quot; button to simplify Native Messaging configuration</p>
+</li></ul><ul class="breaking-changes-flag"><li class="breaking-changes-tag"><p>Removed organisation support with Sql Server and Devolutions Organization</p>
+</li></ul><ul class="updated-flag"><li class="undefined"><p>Added &quot;Configure Native Messaging&quot; button to simplify Native Messaging configuration</p>
 </li><li class="undefined"><p>Added a custom download path option for the updater</p>
 </li><li class="undefined"><p>Added a new contact type Team/Department</p>
 </li><li class="undefined"><p>Added a new disposed asset report</p>
@@ -766,7 +923,7 @@
 </li><li class="undefined"><p>Improved inventory management and remote management integration in the dashboard</p>
 </li><li class="undefined"><p>Improved the Quick Search with detail view</p>
 </li><li class="undefined"><p>Initial MSRDC Azure Virtual Desktop credential injection</p>
-</li></ul><ul class="updated-flag"><li class="breaking-changes-tag"><p>Enable &quot;Log user vault activities&quot; by default</p>
+</li></ul><ul class="breaking-changes-flag"><li class="breaking-changes-tag"><p>Enable &quot;Log user vault activities&quot; by default</p>
 </li><li class="breaking-changes-tag"><p>Marked XenServer Console as deprecated</p>
 </li><li class="breaking-changes-tag"><p>New default installation path in Program files instead of Program Files (x86)</p>
 </li><li class="breaking-changes-tag"><p>Removed Citrix ICA support</p>
@@ -776,7 +933,7 @@
 </li><li class="breaking-changes-tag"><p>User license must be set in the data source</p>
 </li><li class="breaking-changes-tag"><p>Xml data source is no longer supported for enterprise features. Use SQLite data source or Devolutions Hub Personal</p>
 </li><li class="breaking-changes-tag"><p>Fixed issue with Clipboard-&gt;Copy control state when user doesn't have the export permission</p>
-</li><li class="security-fix-tag"><p>Added on Application Lock Devolutions Web Login extension locks as well</p>
+</li></ul><ul class="updated-flag"><li class="security-fix-tag"><p>Added on Application Lock Devolutions Web Login extension locks as well</p>
 </li><li class="security-fix-tag"><p>Fixed a security issue allowing to view shared credentials from the user vault</p>
 </li><li class="security-fix-tag"><p>Fixed issue in My Account Settings where Dashlane Password and KeePass Server Password were not obfuscated</p>
 </li><li class="security-fix-tag"><p>Fixed possible security issue with delete user in MySQL</p>
@@ -1008,10 +1165,10 @@
 </li><li class="undefined"><p>Added SFTP and SCP support over Devolutions Gateway</p>
 </li><li class="undefined"><p>Added user specific settings logs</p>
 </li><li class="undefined"><p>Added Website over Devolutions Gateway</p>
-</li></ul><ul class="updated-flag"><li class="breaking-changes-tag"><p>Added encryption to local and user overrides</p>
+</li></ul><ul class="breaking-changes-flag"><li class="breaking-changes-tag"><p>Added encryption to local and user overrides</p>
 </li><li class="breaking-changes-tag"><p>Register product is now located in Administration ribbon</p>
 </li><li class="breaking-changes-tag"><p>Website entry (previously &quot;Web Browser (HTTP/HTTPS)&quot;) now has Devolutions Web Login enabled by default. This default value can be configured in File &gt; Options &gt; Types &gt; Website</p>
-</li><li class="undefined"><p>Add &quot;Prompt refresh all vaults on startup&quot; setting for Hub Business</p>
+</li></ul><ul class="updated-flag"><li class="undefined"><p>Add &quot;Prompt refresh all vaults on startup&quot; setting for Hub Business</p>
 </li><li class="undefined"><p>Add &quot;use over secure gateway&quot; in vault settings for inheritance</p>
 </li><li class="undefined"><p>Added &quot;append to the username&quot; and &quot;prepend to the username&quot; modes for OTP usage</p>
 </li><li class="undefined"><p>Added a batch action to change the entries color</p>
@@ -1245,12 +1402,12 @@
 </li><li class="undefined"><p>Added support for the new Windows Remote Desktop Client (msrdc)</p>
 </li><li class="undefined"><p>Added support for vault templates</p>
 </li><li class="undefined"><p>Added system permission for Entry Security Analyzer</p>
-</li></ul><ul class="updated-flag"><li class="breaking-changes-tag"><p>Devolutions Online Database is now deprecated</p>
+</li></ul><ul class="breaking-changes-flag"><li class="breaking-changes-tag"><p>Devolutions Online Database is now deprecated</p>
 </li><li class="breaking-changes-tag"><p>External add-ons will no longer be supported</p>
 </li><li class="breaking-changes-tag"><p>MySQL and MariaDB are now deprecated data source types. Password Hub Business , Microsoft SQL Server or with Microsoft SQL Server Express are now recommended</p>
 </li><li class="breaking-changes-tag"><p>Removed support Internet Explorer 32-bit</p>
 </li><li class="breaking-changes-tag"><p>Updated the rdm export format to v2 (Compatible with RDM 2021.2 and later)</p>
-</li><li class="security-fix-tag"><p>Added custom user password expiration for SQL Server</p>
+</li></ul><ul class="updated-flag"><li class="security-fix-tag"><p>Added custom user password expiration for SQL Server</p>
 </li><li class="undefined"><p>Added a &quot;Disconnected tab behavior&quot; option</p>
 </li><li class="undefined"><p>Added a Favorites section to the CyberArk Dashboard</p>
 </li><li class="undefined"><p>Added a new Extract Host Edit (Special Actions)</p>
@@ -1535,16 +1692,16 @@
 </li></ul><ul class="fixed-flag"><li class="undefined"><p>Fixed a possible issue with Hub Business migration</p>
 </li><li class="undefined"><p>Fixed possible crash in Firefox (Xul Runner)</p>
 </li><li class="undefined"><p>Fixed some possible FIPS and DPAPI issues</p>
-</li></ul><h4 id="v2021.2.13.0">Version 2021.2.13.0 (October 4, 2021)</h4><p class="db-flag">Database upgrade required</p><ul class="new-flag"><li class="breaking-changes-tag"><p>A feature license is now required to enable the CyberArk integration</p>
-</li><li class="breaking-changes-tag"><p>Improved Secret Server integration with th REST API</p>
-</li><li class="breaking-changes-tag"><p>New PowerShell module (multi platform) now available for download in <a href="https://powershellgallery.com/packages/RemoteDesktopManager">PSGallery</a></p>
-</li><li class="breaking-changes-tag"><p>RDM 32-bit is no longer supported</p>
-</li><li class="breaking-changes-tag"><p>This version contains an improved local cryptography for the data sources, offline mode and the configuration. Export your configuration file (File - Options - Export) prior to upgrade to this version</p>
-</li><li class="undefined"><p>Added CyberArk Dashboard connection</p>
+</li></ul><h4 id="v2021.2.13.0">Version 2021.2.13.0 (October 4, 2021)</h4><p class="db-flag">Database upgrade required</p><ul class="new-flag"><li class="undefined"><p>Added CyberArk Dashboard connection</p>
 </li><li class="undefined"><p>Added new entry RD Gateway console</p>
 </li><li class="undefined"><p>Added offline document support</p>
 </li><li class="undefined"><p>Added Typing Macro toolbar to SSH Shell</p>
 </li><li class="undefined"><p>Improved local cryptography for the data sources, offline mode and the configuration</p>
+</li></ul><ul class="breaking-changes-flag"><li class="breaking-changes-tag"><p>A feature license is now required to enable the CyberArk integration</p>
+</li><li class="breaking-changes-tag"><p>Improved Secret Server integration with th REST API</p>
+</li><li class="breaking-changes-tag"><p>New PowerShell module (multi platform) now available for download in <a href="https://powershellgallery.com/packages/RemoteDesktopManager">PSGallery</a></p>
+</li><li class="breaking-changes-tag"><p>RDM 32-bit is no longer supported</p>
+</li><li class="breaking-changes-tag"><p>This version contains an improved local cryptography for the data sources, offline mode and the configuration. Export your configuration file (File - Options - Export) prior to upgrade to this version</p>
 </li></ul><ul class="updated-flag"><li class="undefined"><p>Added &quot;Close with no logoff&quot; to contextual menu for embedded RDP session with Automatic logoff</p>
 </li><li class="undefined"><p>Added &quot;Force current configuration loading&quot; GPO</p>
 </li><li class="undefined"><p>Added &quot;import in specific folder&quot; option to Import Dialog</p>
@@ -1810,11 +1967,11 @@
 </li><li class="undefined"><p>Fixed issues with Favorite and Private Vault folder state on save and load as well as columns</p>
 </li><li class="undefined"><p>Fixed possible crashes caused by User Vault search feature when the User Vault is disabled or unavailable</p>
 </li><li class="undefined"><p>Fixed Wayk and FreeRDP incorrect control size with system DPI awareness</p>
-</li></ul><h4 id="v2021.1.26.0">Version 2021.1.26.0 (May 1, 2021)</h4><ul class="updated-flag"><li class="breaking-changes-tag"><p>Removed &quot;Use legacy terminal&quot; option</p>
+</li></ul><h4 id="v2021.1.26.0">Version 2021.1.26.0 (May 1, 2021)</h4><ul class="breaking-changes-flag"><li class="breaking-changes-tag"><p>Removed &quot;Use legacy terminal&quot; option</p>
 </li><li class="breaking-changes-tag"><p>Removed HP RGS libs</p>
 </li><li class="breaking-changes-tag"><p>Removed third party PDF viewer like Acrobat Reader</p>
 </li><li class="breaking-changes-tag"><p>Removed Visio embedded viewer</p>
-</li><li class="undefined"><p>Added &quot;Open from URL&quot; option to KeePass credentials</p>
+</li></ul><ul class="updated-flag"><li class="undefined"><p>Added &quot;Open from URL&quot; option to KeePass credentials</p>
 </li><li class="undefined"><p>Added import logins from both Microsoft Edge and Mozilla Firefox</p>
 </li><li class="undefined"><p>Added last ticket # button to the comment prompt when connecting to a session</p>
 </li><li class="undefined"><p>Added main application minimum size to options and reduced minimum width to fit Navigation Pane</p>
@@ -1905,9 +2062,7 @@
 </li><li class="undefined"><p>Fixed possible crash when filtering user groups in batch grant permission</p>
 </li><li class="undefined"><p>Fixed UI freeze when locking application through File -&gt; Lock Application</p>
 </li></ul><h4 id="v2021.1.20.0">Version 2021.1.20.0 (March 30, 2021)</h4><p class="db-flag">Database upgrade required</p><ul class="message-flag"><li><p>Not compatible with DVLS 2020.X and older</p>
-</li></ul><ul class="new-flag"><li class="breaking-changes-tag"><p>Added support for attachment in User Vault</p>
-</li><li class="breaking-changes-tag"><p>Added support for entry history in User Vault</p>
-</li><li class="undefined"><p>Added ITGlue credential type</p>
+</li></ul><ul class="new-flag"><li class="undefined"><p>Added ITGlue credential type</p>
 </li><li class="undefined"><p>Added Kaspersky Password Manager credential</p>
 </li><li class="undefined"><p>Added Secure Desktop for masterkey prompts</p>
 </li><li class="undefined"><p>Added support for a plugin-less mode in KeePass</p>
@@ -1920,10 +2075,12 @@
 </li><li class="undefined"><p>Added the Door Codes information type entry</p>
 </li><li class="undefined"><p>Added Wayk Bastion data source</p>
 </li><li class="undefined"><p>Major security improvement with the Devolutions Web Login integration</p>
-</li></ul><ul class="updated-flag"><li class="breaking-changes-tag"><p>Introduced a distinction between sensitive properties and passwords in Data Entries. The view password permissions now only affect passwords specifically</p>
+</li></ul><ul class="breaking-changes-flag"><li class="breaking-changes-tag"><p>Added support for attachment in User Vault</p>
+</li><li class="breaking-changes-tag"><p>Added support for entry history in User Vault</p>
+</li><li class="breaking-changes-tag"><p>Introduced a distinction between sensitive properties and passwords in Data Entries. The view password permissions now only affect passwords specifically</p>
 </li><li class="breaking-changes-tag"><p>Updated the Azure Key Vault entry to support the new API</p>
 </li><li class="breaking-changes-tag"><p>We now encrypt the local license information in the configuration file</p>
-</li><li class="deprecated-tag"><p>Deprecated Citrix ICA/HDX</p>
+</li></ul><ul class="updated-flag"><li class="deprecated-tag"><p>Deprecated Citrix ICA/HDX</p>
 </li><li class="deprecated-tag"><p>Deprecated embedded credential source</p>
 </li><li class="deprecated-tag"><p>Deprecated GoToAssist</p>
 </li><li class="security-fix-tag"><p>Added an expiration timeout to the credential auto fill feature of web browser and website entries</p>
@@ -2692,8 +2849,7 @@
 </li><li class="undefined"><p>Fixed the &quot;Move&quot; action when executed outside of the main connection view</p>
 </li><li class="undefined"><p>Fixed the &quot;View&quot; tab of the documentation not handling line-breaks and tabs</p>
 </li><li class="undefined"><p>Removed the &quot;Refresh&quot; link label from the Duo setup window when using &quot;Configure later by user&quot;</p>
-</li></ul><h4 id="v2020.2.12.0">Version 2020.2.12.0 (June 9, 2020)</h4><p class="db-flag">Database upgrade required</p><ul class="new-flag"><li class="breaking-changes-tag"><p>CyberArk AAM entry refactored to conform with new requirement to authenticate using certificate</p>
-</li><li class="undefined"><p>Add support for vault image</p>
+</li></ul><h4 id="v2020.2.12.0">Version 2020.2.12.0 (June 9, 2020)</h4><p class="db-flag">Database upgrade required</p><ul class="new-flag"><li class="undefined"><p>Add support for vault image</p>
 </li><li class="undefined"><p>Added Centrify credential type</p>
 </li><li class="undefined"><p>Added Confluence login and tab page for embedded documentation</p>
 </li><li class="undefined"><p>Added Generic CSV Import with field mappings</p>
@@ -2707,6 +2863,7 @@
 </li><li class="undefined"><p>Added support for time-based access per user</p>
 </li><li class="undefined"><p>Added the possibility to add a master password to access a vault</p>
 </li><li class="undefined"><p>Vault overview dashboard</p>
+</li></ul><ul class="breaking-changes-flag"><li class="breaking-changes-tag"><p>CyberArk AAM entry refactored to conform with new requirement to authenticate using certificate</p>
 </li></ul><ul class="updated-flag"><li class="undefined"><p>Add mySQL data source in database entry type</p>
 </li><li class="undefined"><p>Added &quot;Delete All From All Vaults&quot; button from entry history</p>
 </li><li class="undefined"><p>Added &quot;Manage Licenses&quot; button to redirect users to the License from the Serial tab of System Settings</p>

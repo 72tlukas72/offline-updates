@@ -18,7 +18,17 @@
   <body>
     <main class="web-site-width mw-750">
       <h2>Release Notes</h2>
-      <div class="change-history-list"><h4 id="v2023.3.20.0">Version 2023.3.20.0 (November 1, 2023)</h4><p class="db-flag">Database upgrade required</p><ul class="message-flag"><li><p>DVLS 2023.3 is required with this version (only if you're already using DVLS)</p>
+      <div class="change-history-list"><h4 id="v2023.3.22.0">Version 2023.3.22.0 (November 3, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.3 is required with this version (only if you're already using DVLS)</p>
+</li></ul><ul class="updated-flag"><li class="undefined"><p>Improved interactive authentication prompt in terminal to better handle protected and unprotected fields</p>
+</li><li class="undefined"><p>Improved logs in terminal to output in real time</p>
+</li></ul><ul class="fixed-flag"><li class="undefined"><p>Fixed infinite loop when loading CyberArk safes</p>
+</li><li class="undefined"><p>Fixed multiple issues with Hub datasource</p>
+</li><li class="undefined"><p>Fixed possible crash with Devolutions Online Drive</p>
+</li><li class="undefined"><p>Fixed possible issue on the first load of the application</p>
+</li><li class="undefined"><p>Fixed possible issue where offline files were processed multiple times</p>
+</li><li class="undefined"><p>Fixed RDM jump issue with multiple connections</p>
+</li><li class="undefined"><p>Fixed Secret Server on-premise authenticating with web login instead of oauth</p>
+</li></ul><h4 id="v2023.3.20.0">Version 2023.3.20.0 (November 1, 2023)</h4><p class="db-flag">Database upgrade required</p><ul class="message-flag"><li><p>DVLS 2023.3 is required with this version (only if you're already using DVLS)</p>
 </li></ul><ul class="new-flag"><li class="undefined"><p>Added BeyondTrust Password Safe as credential</p>
 </li><li class="undefined"><p>Added credential entry for X509 certificates</p>
 </li><li class="undefined"><p>Added Lansweeper synchronizer and importer</p>
@@ -28,7 +38,7 @@
 </li><li class="breaking-changes-tag"><p>Removed support for Legacy Security</p>
 </li><li class="breaking-changes-tag"><p>Removed support for MySQL and MariaDB data sources</p>
 </li><li class="breaking-changes-tag"><p>Version mismatch with DVLS leads to a &quot;Read-Only&quot; mode in the application to avoid potential issues</p>
-</li></ul><ul class="updated-flag"><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-5765">CVE-2023-5765</a> Fixed Password Analyzer being accessible in any data source when already opened in a prior data source in which you were an adminitrator</p>
+</li></ul><ul class="updated-flag"><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-5765">CVE-2023-5765</a> Fixed Password Analyzer being accessible in any data source when already opened in a prior data source in which you were an administrator</p>
 </li><li class="undefined"><p>Added &quot;URL encode credentials&quot; options when using basic authentication</p>
 </li><li class="undefined"><p>Added &quot;Visible if not empty&quot; option to dashboard widgets</p>
 </li><li class="undefined"><p>Added a compact mode to the action sidebar</p>
@@ -79,6 +89,7 @@
 </li><li class="undefined"><p>Added support for OTP on PAM entries in DVLS</p>
 </li><li class="undefined"><p>Added support for password in RustDesk addon</p>
 </li><li class="undefined"><p>Added support for revoking temporary access by an approver</p>
+</li><li class="undefined"><p>Added support for Secret Server Cloud login process</p>
 </li><li class="undefined"><p>Added support for vertical document tab layout</p>
 </li><li class="undefined"><p>Added temporary access to view password on credential entries for Hub</p>
 </li><li class="undefined"><p>Added the DVLS security dashboard in RDM</p>

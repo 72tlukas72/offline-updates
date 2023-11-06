@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?> 
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'> 
   <app appid='nngceckbapebfimnlniiiahkandclblb'> 
-  <updatecheck codebase='https://artifacts.bitwarden.com/edge/bitwarden.crx' version='2023.10.0' />
+  <updatecheck codebase='https://artifacts.bitwarden.com/edge/bitwarden.crx' version='2023.10.1' />
   </app> 
 </gupdate> 

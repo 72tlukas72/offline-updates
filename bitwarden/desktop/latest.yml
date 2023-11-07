@@ -1,28 +1,28 @@
-version: 2023.9.3
+version: 2023.10.1
 files:
-  - url: Bitwarden-Installer-2023.9.3.exe
-    sha512: ecd76TcU4rfWswlEMox44NXg5dAjkrdHfx38JO8l0iFBXyD8ziPPO7ev5DH4J0R/EL/GpuajqiAZiut4ZwdjJg==
-path: Bitwarden-Installer-2023.9.3.exe
-sha512: ecd76TcU4rfWswlEMox44NXg5dAjkrdHfx38JO8l0iFBXyD8ziPPO7ev5DH4J0R/EL/GpuajqiAZiut4ZwdjJg==
+  - url: Bitwarden-Installer-2023.10.1.exe
+    sha512: wAgEefHoQmB2KcaT2IeiTed1n2Qp+W+5Y04mMOi0ZK900kTpQJvBQ/2M80tBNHbZj9eMOoeqTKX6xW4E2t05UA==
+path: Bitwarden-Installer-2023.10.1.exe
+sha512: wAgEefHoQmB2KcaT2IeiTed1n2Qp+W+5Y04mMOi0ZK900kTpQJvBQ/2M80tBNHbZj9eMOoeqTKX6xW4E2t05UA==
 packages:
   ia32:
-    size: 70465791
-    sha512: wl/4OJZTjyWOkX8URuq/w4DbsIN5cd8rm1eNXiWDOOTdXeRxEXIvsTP3OeW6pabEQbJUjlfAOBr5lBzsNnyGxw==
-    blockMapSize: 73840
-    path: bitwarden-2023.9.3-ia32.nsis.7z
-    file: bitwarden-2023.9.3-ia32.nsis.7z
+    size: 70875155
+    sha512: zva+zQAeSP9hvGwodXFj3Lk3zt4O+XErKHrfjhshvZ+NeQCox/yaegyCIIOdgLJ2GfRiXxjcAGxx+RNiCxQJTA==
+    blockMapSize: 74336
+    path: bitwarden-2023.10.1-ia32.nsis.7z
+    file: bitwarden-2023.10.1-ia32.nsis.7z
   x64:
-    size: 75113779
-    sha512: jhZ0WdCFm/BJO0i6sncJne5g7gd7xFl5s9x+2ZFmx+f+sW3Z4qaos3+khIDdKm086/J9iJHrnP1+Op++TAG1vQ==
-    blockMapSize: 80163
-    path: bitwarden-2023.9.3-x64.nsis.7z
-    file: bitwarden-2023.9.3-x64.nsis.7z
+    size: 75524733
+    sha512: oyTyS9tGxbFddRanfjagrTugZ0SIgUex3RN6pDV0yqEjVTnymfJXC4DKYKvcgZE2087hH2BhVzBkr7s2K4TLMw==
+    blockMapSize: 80987
+    path: bitwarden-2023.10.1-x64.nsis.7z
+    file: bitwarden-2023.10.1-x64.nsis.7z
   arm64:
-    size: 77710494
-    sha512: qDbItYqeKW/EMpqr1p4jzSkuIy2TZWb5YeNLw+LN83nEYLHsW4kzZZk+et2gDC/szTAOwtqRJwiHPH8VK5h0qg==
-    blockMapSize: 82468
-    path: bitwarden-2023.9.3-arm64.nsis.7z
-    file: bitwarden-2023.9.3-arm64.nsis.7z
-sha2: 3f9d865238049e75b49005c4175ab23c472a51b7855ed054d3a9abb6e64bbc3b
-releaseDate: '2023-10-16T16:50:05.031Z'
+    size: 78126415
+    sha512: uEKpnhuRBiGBj8CNRwWZof3wxWBFPpGypIjTKeL+/S0udy5BB/WJBU8Gelr4f38I+nEozTFTXOG1eEhalf9zAA==
+    blockMapSize: 82792
+    path: bitwarden-2023.10.1-arm64.nsis.7z
+    file: bitwarden-2023.10.1-arm64.nsis.7z
+sha2: 07339bc0f36e8c8c215e0f6236e5f98d8e09cd73108fbf9dc8be06ace2e97576
+releaseDate: '2023-11-06T19:07:17.186Z'
 stagingPercentage: 100

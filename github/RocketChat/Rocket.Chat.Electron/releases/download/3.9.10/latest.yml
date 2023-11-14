@@ -1,0 +1,14 @@
+version: 3.9.10
+files:
+  - url: rocketchat-3.9.10-win.exe
+    sha512: WxhXc3fjowOys4JFsGw+tCPPOtM/qhKmlD+++LWVidy8lgc132EFjRak2+Z21OVA7OulVi0eHMx3k8/XQRFl4Q==
+    size: 149665224
+  - url: rocketchat-3.9.10-win-x64.exe
+    sha512: gQis9tzemUTgTh+XMYUqOvL49TkhCXAQyG/HLWlSwKwKi/9kwW6x5ohLApzwcj/lUeuaDzvnuCJXb4FC37tySw==
+    size: 77262952
+  - url: rocketchat-3.9.10-win-ia32.exe
+    sha512: bVFlAvKEox0nNAVnbJ50K7Ovm+bsG2yi4aCP/rBw4YcAwT9TXrRCH6cDMFudrTcus0FXGWEfq8ISlyWlz1iAjw==
+    size: 73385832
+path: rocketchat-3.9.10-win.exe
+sha512: WxhXc3fjowOys4JFsGw+tCPPOtM/qhKmlD+++LWVidy8lgc132EFjRak2+Z21OVA7OulVi0eHMx3k8/XQRFl4Q==
+releaseDate: '2023-11-14T12:49:13.102Z'

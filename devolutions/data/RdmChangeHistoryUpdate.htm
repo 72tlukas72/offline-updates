@@ -18,55 +18,52 @@
   <body>
     <main class="web-site-width mw-750">
       <h2>Release Notes</h2>
-      <div class="change-history-list"><h4 id="v2023.3.24.0">Version 2023.3.24.0 (November 7, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.3 is required with this version (only if you're already using DVLS)</p>
-</li></ul><ul class="new-flag"><li class="undefined"><p>Added new integration for Cerby Password Manager</p>
-</li></ul><ul class="updated-flag"><li class="undefined"><p>Added API Key credential to unlicensed versions of RDM</p>
-</li><li class="undefined"><p>Improved handling when DRAC interface can't be reached</p>
-</li><li class="undefined"><p>Improved Hub Personal migration process</p>
-</li><li class="undefined"><p>Renamed &quot;auto go offline&quot; option to &quot;automatically go offline on offline prompt&quot; for clarity</p>
-</li><li class="undefined"><p>Renamed Access Code entry to Secret</p>
-</li></ul><ul class="fixed-flag"><li class="undefined"><p>Fixed an error preventing shared templates from being deleted</p>
-</li><li class="undefined"><p>Fixed an error when using a DOD datasource without a saved username</p>
-</li><li class="undefined"><p>Fixed an issue in contact with duplicated images</p>
-</li><li class="undefined"><p>Fixed an issue with the parent host variable when pointing to a web browser entry</p>
-</li><li class="undefined"><p>Fixed chrome autofill to reduce the amount of errors</p>
-</li><li class="undefined"><p>Fixed index out of range exception when adding an entry from a template group</p>
-</li><li class="undefined"><p>Fixed issue with dead tokens causing performance issues with Devolutions Accounts</p>
-</li><li class="undefined"><p>Fixed issue with the batch edit UI</p>
-</li><li class="undefined"><p>Fixed possible crash in account tab</p>
-</li><li class="undefined"><p>Fixed possible Gateway issue by specifying UserSpecifiedServerName for FreeRDP connections</p>
-</li><li class="undefined"><p>Fixed possible issue with credential entries in Hub Personal</p>
-</li><li class="undefined"><p>Fixed right-click in tree view not working without a selected entry</p>
-</li><li class="undefined"><p>Fixed UI settings in Hyper-V Dashboard</p>
-</li><li class="undefined"><p>Fixed user vault query and root creation when disabled</p>
-</li></ul><h4 id="v2023.3.22.0">Version 2023.3.22.0 (November 3, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.3 is required with this version (only if you're already using DVLS)</p>
-</li></ul><ul class="updated-flag"><li class="undefined"><p>Improved interactive authentication prompt in terminal to better handle protected and unprotected fields</p>
-</li><li class="undefined"><p>Improved logs in terminal to output in real time</p>
-</li></ul><ul class="fixed-flag"><li class="undefined"><p>Fixed infinite loop when loading CyberArk safes</p>
-</li><li class="undefined"><p>Fixed multiple issues with Hub datasource</p>
-</li><li class="undefined"><p>Fixed possible crash with Devolutions Online Drive</p>
-</li><li class="undefined"><p>Fixed possible issue on the first load of the application</p>
-</li><li class="undefined"><p>Fixed possible issue where offline files were processed multiple times</p>
-</li><li class="undefined"><p>Fixed RDM jump issue with multiple connections</p>
-</li><li class="undefined"><p>Fixed Secret Server on-premise authenticating with web login instead of oauth</p>
-</li></ul><h4 id="v2023.3.20.0">Version 2023.3.20.0 (November 1, 2023)</h4><p class="db-flag">Database upgrade required</p><ul class="message-flag"><li><p>DVLS 2023.3 is required with this version (only if you're already using DVLS)</p>
+      <div class="change-history-list"><h4 id="v2023.3.25.0">Version 2023.3.25.0 (November 14, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.3 is required with this version (only if you're already using DVLS)</p>
+</li></ul><ul class="updated-flag"><li class="undefined"><p>&quot;Devolutions Web Login&quot; has been renamed to &quot;Workspace browser extension&quot;. This change is purely cosmetic and does not impact any functionality</p>
+</li><li class="undefined"><p>Added &quot;remember me&quot; to Zoho Vault MFA prompt</p>
+</li><li class="undefined"><p>Added GPO to disable mouse jiggler</p>
+</li><li class="undefined"><p>Added prompt to select credential type when adding credential from the entry properties</p>
+</li><li class="undefined"><p>Added support for hosts and websites in DVLS credentials</p>
+</li><li class="undefined"><p>Added synchronizer support in unlicensed versions of RDM</p>
+</li><li class="undefined"><p>Added the new X.509 certificate in the dashboard widget counters</p>
+</li><li class="undefined"><p>Added the possibility to link an IT Asset in software/license entry</p>
+</li><li class="undefined"><p>Improved integrity check for custom installer</p>
+</li><li class="undefined"><p>Moved the Jump connection information and button into the Jump section</p>
+</li><li class="undefined"><p>Updated MSTSC download URL for Windows 11</p>
+</li></ul><ul class="fixed-flag"><li class="undefined"><p>Changed default value of RDP mouse jiggler to be disabled</p>
+</li><li class="undefined"><p>Fixed Azure resource resolution with inherited VPN</p>
+</li><li class="undefined"><p>Fixed disabled field in online backup</p>
+</li><li class="undefined"><p>Fixed issue deleting parent entries in Hub Personal</p>
+</li><li class="undefined"><p>Fixed issue in Hub showing encrypted passwords in password list dashboard</p>
+</li><li class="undefined"><p>Fixed issue when adding entry from the properties when the Type Availability prevents the Host entry type</p>
+</li><li class="undefined"><p>Fixed issue with CP437 encoding</p>
+</li><li class="undefined"><p>Fixed issue with non-administrators being prompted to upgrade the database</p>
+</li><li class="undefined"><p>Fixed issue with profile names containing the &quot;#&quot; character for Edge embedded</p>
+</li><li class="undefined"><p>Fixed issue with UTC handling in SFTP</p>
+</li><li class="undefined"><p>Fixed issue with version management configuration prompting for non-administrators</p>
+</li><li class="undefined"><p>Fixed possible error when browsing Beyondtrust accounts</p>
+</li><li class="undefined"><p>Fixed possible error when creating folders</p>
+</li><li class="undefined"><p>Fixed UI issue with &quot;manage cache&quot; button for DVLS datasource</p>
+</li><li class="undefined"><p>Fixed user specific settings pointing to the user vault not working on first load</p>
+</li></ul><h4 id="v2023.3.24.0">Version 2023.3.24.0 (November 7, 2023)</h4><p class="db-flag">Database upgrade required</p><ul class="message-flag"><li><p>DVLS 2023.3 is required with this version (only if you're already using DVLS)</p>
 </li></ul><ul class="new-flag"><li class="undefined"><p>Added BeyondTrust Password Safe as credential</p>
 </li><li class="undefined"><p>Added credential entry for X509 certificates</p>
 </li><li class="undefined"><p>Added Lansweeper synchronizer and importer</p>
 </li><li class="undefined"><p>Added Lansweeper web integration in entries' IT Asset Management tab</p>
+</li><li class="undefined"><p>Added new integration for Cerby Password Manager</p>
 </li><li class="undefined"><p>Added new integration for iDRAC</p>
 </li></ul><ul class="breaking-changes-flag"><li class="breaking-changes-tag"><p>Removed Office 15 contact import</p>
 </li><li class="breaking-changes-tag"><p>Removed support for Legacy Security</p>
 </li><li class="breaking-changes-tag"><p>Removed support for MySQL and MariaDB data sources</p>
 </li><li class="breaking-changes-tag"><p>Version mismatch with DVLS leads to a &quot;Read-Only&quot; mode in the application to avoid potential issues</p>
-</li></ul><ul class="updated-flag"><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-5765">CVE-2023-5765</a> Fixed Password Analyzer being accessible in any data source when already opened in a prior data source in which you were an administrator</p>
-</li><li class="undefined"><p>Added &quot;URL encode credentials&quot; options when using basic authentication</p>
+</li></ul><ul class="updated-flag"><li class="undefined"><p>Added &quot;URL encode credentials&quot; options when using basic authentication</p>
 </li><li class="undefined"><p>Added &quot;Visible if not empty&quot; option to dashboard widgets</p>
 </li><li class="undefined"><p>Added a compact mode to the action sidebar</p>
 </li><li class="undefined"><p>Added a recommended version setting to the version management</p>
 </li><li class="undefined"><p>Added a setting to toggle the Search Everywhere in Add Entry</p>
 </li><li class="undefined"><p>Added 'All approvers' for DVLS PAM</p>
 </li><li class="undefined"><p>Added All Approvers options when requesting a pam checkout</p>
+</li><li class="undefined"><p>Added API Key credential to unlicensed versions of RDM</p>
 </li><li class="undefined"><p>Added auto-focus on filter bar when opening the PAM Vault Selector</p>
 </li><li class="undefined"><p>Added button to show/hide compatibility for settings in website entries</p>
 </li><li class="undefined"><p>Added CP437 encoding for terminal</p>
@@ -129,8 +126,12 @@
 </li><li class="undefined"><p>Improved creation flow in Add Connection for host, credential and folder</p>
 </li><li class="undefined"><p>Improved default displaying of expiring entries to be related to time</p>
 </li><li class="undefined"><p>Improved drag and drop of documents, certificate (PFX) and RDP files</p>
+</li><li class="undefined"><p>Improved handling when DRAC interface can't be reached</p>
+</li><li class="undefined"><p>Improved Hub Personal migration process</p>
+</li><li class="undefined"><p>Improved interactive authentication prompt in terminal to better handle protected and unprotected fields</p>
 </li><li class="undefined"><p>Improved layout saving for file explorer entries</p>
 </li><li class="undefined"><p>Improved license validation process</p>
+</li><li class="undefined"><p>Improved logs in terminal to output in real time</p>
 </li><li class="undefined"><p>Improved navigation pane filter to check host from password list</p>
 </li><li class="undefined"><p>Improved options UI when GPO is enabled</p>
 </li><li class="undefined"><p>Improved RDP to not show default port when connecting</p>
@@ -141,20 +142,28 @@
 </li><li class="undefined"><p>Improved the custom report</p>
 </li><li class="undefined"><p>Improved the increment number option</p>
 </li><li class="undefined"><p>Improved the Send Key to Application macro</p>
+</li><li class="undefined"><p>Renamed &quot;auto go offline&quot; option to &quot;automatically go offline on offline prompt&quot; for clarity</p>
+</li><li class="undefined"><p>Renamed Access Code entry to Secret</p>
 </li><li class="undefined"><p>Updated the online and offline license validation</p>
 </li><li class="undefined"><p>Updated the way PAM account permission are displayed to reflect the permissions used in specific datasource type</p>
-</li></ul><ul class="fixed-flag"><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-5766">CVE-2023-5766</a> Fixed remote code execution vulnerability</p>
+</li></ul><ul class="fixed-flag"><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-5765">CVE-2023-5765</a> Fixed Password Analyzer being accessible in any data source when already opened in a prior data source in which you were an administrator</p>
+</li><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-5766">CVE-2023-5766</a> Fixed remote code execution vulnerability</p>
 </li><li class="undefined"><p>Fixed &quot;view folder details&quot; not resolving sensitive data correctly</p>
 </li><li class="undefined"><p>Fixed a Keeper login issue when the session token is expired</p>
 </li><li class="undefined"><p>Fixed a possible FIPS mode issue</p>
 </li><li class="undefined"><p>Fixed AD dashboard issue with LDAPS url and TLS channel binding</p>
 </li><li class="undefined"><p>Fixed alt-tab issue with the terminal</p>
+</li><li class="undefined"><p>Fixed an error preventing shared templates from being deleted</p>
 </li><li class="undefined"><p>Fixed an error when duplicating a DVLS datasource</p>
+</li><li class="undefined"><p>Fixed an error when using a DOD datasource without a saved username</p>
 </li><li class="undefined"><p>Fixed an issue causing the Asset tab to be hidden for non-admins</p>
+</li><li class="undefined"><p>Fixed an issue in contact with duplicated images</p>
 </li><li class="undefined"><p>Fixed an issue with Azure Resource and subscription inheritance</p>
 </li><li class="undefined"><p>Fixed an issue with import from AD using Computer Wizard with shared templates</p>
+</li><li class="undefined"><p>Fixed an issue with the parent host variable when pointing to a web browser entry</p>
 </li><li class="undefined"><p>Fixed and added Collapse/Expand all for favorite view</p>
 </li><li class="undefined"><p>Fixed batch edit of permissions in Hub</p>
+</li><li class="undefined"><p>Fixed chrome autofill to reduce the amount of errors</p>
 </li><li class="undefined"><p>Fixed convert with template setting 'Keep entry name' from showing when Template Group is selected</p>
 </li><li class="undefined"><p>Fixed counter card issue with text in german</p>
 </li><li class="undefined"><p>Fixed credential linking between shared and user vault</p>
@@ -162,39 +171,60 @@
 </li><li class="undefined"><p>Fixed export in read-only mode and restricted access to edit actions</p>
 </li><li class="undefined"><p>Fixed folder properties on empty folder</p>
 </li><li class="undefined"><p>Fixed folders added in the wrong vault when custom folder template exist</p>
+</li><li class="undefined"><p>Fixed index out of range exception when adding an entry from a template group</p>
+</li><li class="undefined"><p>Fixed infinite loop when loading CyberArk safes</p>
 </li><li class="undefined"><p>Fixed issue where Passphrase mode couldn't be used in password template</p>
 </li><li class="undefined"><p>Fixed issue where RDM was freezing when using double click reconnect on VPNs</p>
 </li><li class="undefined"><p>Fixed issue where you could add entries in the user vault while in read only mode from major version mismatch</p>
 </li><li class="undefined"><p>Fixed issue with bad folders in a Template Group creating faulty entries when used</p>
 </li><li class="undefined"><p>Fixed issue with checkouts for PAM account when ticketing type is set to Default (none)</p>
+</li><li class="undefined"><p>Fixed issue with dead tokens causing performance issues with Devolutions Accounts</p>
 </li><li class="undefined"><p>Fixed issue with default sort in Password List</p>
 </li><li class="undefined"><p>Fixed issue with Hub loading infinitely due to unhealthy entries</p>
 </li><li class="undefined"><p>Fixed issue with mouse wheel zoom in terminal</p>
 </li><li class="undefined"><p>Fixed issue with remote TRP recordings not being downloadable</p>
 </li><li class="undefined"><p>Fixed issue with template selection in synchronizers</p>
+</li><li class="undefined"><p>Fixed issue with the batch edit UI</p>
 </li><li class="undefined"><p>Fixed issues with log date filters</p>
 </li><li class="undefined"><p>Fixed issues with temporary access in Hub datasource</p>
 </li><li class="undefined"><p>Fixed missing browse button for the activity logs backup</p>
 </li><li class="undefined"><p>Fixed move entries out of system vault using edit special actions</p>
+</li><li class="undefined"><p>Fixed multiple issues with Hub datasource</p>
 </li><li class="undefined"><p>Fixed multiple issues with the Import Wizard</p>
 </li><li class="undefined"><p>Fixed overview for ZOC host</p>
 </li><li class="undefined"><p>Fixed PAM Dashboard not using autofocus dashboard option</p>
 </li><li class="undefined"><p>Fixed PAM usage policies tools restriction not working properly</p>
 </li><li class="undefined"><p>Fixed performance issue in duplicate report</p>
 </li><li class="undefined"><p>Fixed permissions not displayed correctly for Read-only &amp; Restricted users</p>
+</li><li class="undefined"><p>Fixed possible crash in account tab</p>
 </li><li class="undefined"><p>Fixed possible crash when loading the asset overview</p>
+</li><li class="undefined"><p>Fixed possible crash with Devolutions Online Drive</p>
 </li><li class="undefined"><p>Fixed possible crash with WaitProgress</p>
 </li><li class="undefined"><p>Fixed possible error when printing a webview that hasn't been initialized</p>
 </li><li class="undefined"><p>Fixed possible freeze when filtering</p>
+</li><li class="undefined"><p>Fixed possible Gateway issue by specifying UserSpecifiedServerName for FreeRDP connections</p>
 </li><li class="undefined"><p>Fixed possible issue in UI of Password Analyzer and Entry Security Analyzer</p>
+</li><li class="undefined"><p>Fixed possible issue on the first load of the application</p>
+</li><li class="undefined"><p>Fixed possible issue where offline files were processed multiple times</p>
+</li><li class="undefined"><p>Fixed possible issue with credential entries in Hub Personal</p>
 </li><li class="undefined"><p>Fixed possible issue with offline mode freezing</p>
+</li><li class="undefined"><p>Fixed RDM jump issue with multiple connections</p>
+</li><li class="undefined"><p>Fixed right-click in tree view not working without a selected entry</p>
 </li><li class="undefined"><p>Fixed Royal TS import failing with certain credential configurations</p>
+</li><li class="undefined"><p>Fixed Secret Server on-premise authenticating with web login instead of oauth</p>
 </li><li class="undefined"><p>Fixed session recording framerate default value</p>
 </li><li class="undefined"><p>Fixed sorting issues with folder with variables in name</p>
 </li><li class="undefined"><p>Fixed template and shared vault loading empty</p>
 </li><li class="undefined"><p>Fixed temporary access not working when the user doesn't have the view permission on a linked entry</p>
+</li><li class="undefined"><p>Fixed UI settings in Hyper-V Dashboard</p>
+</li><li class="undefined"><p>Fixed user vault query and root creation when disabled</p>
 </li><li class="undefined"><p>Fixed What's New page shown even when internet access isn't allowed</p>
 </li><li class="undefined"><p>Removed online backup in Devolutions Hub Personal - never been supported</p>
+</li></ul><h4 id="v2023.2.35.0">Version 2023.2.35.0 (November 10, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.2 is required with this version (only if you're already using DVLS)</p>
+</li></ul><ul class="updated-flag"><li class="undefined"><p>Changed user agent for Devolutions Account authentication network calls</p>
+</li></ul><h4 id="v2023.2.34.0">Version 2023.2.34.0 (November 10, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.2 is required with this version (only if you're already using DVLS)</p>
+</li></ul><ul class="fixed-flag"><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-5765">CVE-2023-5765</a> Fixed Password Analyzer being accessible in any data source when already opened in a prior data source in which you were an administrator</p>
+</li><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-5766">CVE-2023-5766</a> Fixed remote code execution vulnerability</p>
 </li></ul><h4 id="v2023.2.33.0">Version 2023.2.33.0 (October 23, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.2 is required with this version (only if you're already using DVLS)</p>
 </li></ul><ul class="updated-flag"><li class="security-fix-tag"><p><a href="https://www.cve.org/CVERecord?id=CVE-2023-4863">CVE-2023-4863</a> Updated EssentialObjects library (Chrome Embedded) to fix security vulnerability</p>
 </li></ul><h4 id="v2023.2.32.0">Version 2023.2.32.0 (September 28, 2023)</h4><ul class="message-flag"><li><p>DVLS 2023.2 is required with this version (only if you're already using DVLS)</p>
